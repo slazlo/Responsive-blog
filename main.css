@@ -23,11 +23,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
-* {
-  box-sizing: border-box;
-}
-
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -94,9 +89,26 @@ h2 {
   color: #8c8e9b;
 }
 
+/* ==== LAYOUT STYLES ==== */
+
+h1, h2, p, img, .main-header, .primary-content {
+    margin-bottom: 1rem;
+}
+
+/* Main Header Styles */
+.main-header {
+	text-align: center;
+	padding: 1.25rem;
+}
+
+/* Article Styles */
+.post {
+	width: 95%;
+	margin: 0 auto 1rem;
+	padding: 0.3125rem;
+}
+
 .picture {
 	width: 100%;
 }
-
-
 
